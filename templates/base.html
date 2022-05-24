@@ -32,6 +32,11 @@ initial-scale=1, shrink-to-fit=no">
         </div>
         </li>
         </ul>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+            <a href="{% url 'article_new' %}">+ New</a>
+            </li>
+            </ul>
         {% else %}
         <form class="form-inline ml-auto">
         <a href="{% url 'login' %}" class="btn btn-outline-secondary">Log In</a>
