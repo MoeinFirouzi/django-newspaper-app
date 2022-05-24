@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     # Local
     'accounts',
     'pages',
+    'articles',
 ]
 
 MIDDLEWARE = [
@@ -141,3 +142,6 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+
+TIME_ZONE =	'Asia/Tehran'
